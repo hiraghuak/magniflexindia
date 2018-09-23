@@ -1,0 +1,610 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+
+    #header .gree_header,
+    #header .red_header {
+        padding: 5px 0;
+    }
+
+    #header a {
+        padding: 5px 5px;
+        font-size: 14px;
+        display: block;
+    }
+
+    #header .gree_header .nav,
+    #header .red_header .nav {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+
+    .logo_section img {
+        padding-top: 5px;
+        width: 140px;
+    }
+
+    #header .buy_now {
+        right: -6.5%;
+        padding: 5px 11px;
+        font-size: 12px;
+        top: 35%;
+    }
+
+    #store_locationer_body {
+        padding: 10px;
+    }
+
+    #client_carousel {
+        padding: 10px 10px;
+    }
+
+    .find_store_locat {
+        padding: 10px !important;
+    }
+
+    .stroe_inner_body {
+        padding: 20px;
+        border-right: 1px dashed #fff;
+    }
+
+    .stroe_inner_body h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .stroe_inner_body p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .stroe_inner_body a {
+        font-size: 13px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .ft_link {
+        padding: 20px;
+    }
+
+    .ft_description p {
+        margin-top: 15px;
+        font-size: 11px;
+    }
+
+    .ft_description .btn {
+        font-size: 13px;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .ft_links {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .ft_links h2 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .ft_links ul li a {
+        font-size: 12px;
+    }
+
+    .ft_pyment_socil-icons {
+        padding: 10px;
+    }
+
+    .payment_icon {
+        margin-bottom: 15px;
+    }
+
+    .copyright {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .payment_icon img {
+        width: 180px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+    /* home page  */
+    section#banner {
+        margin-top: 0px;
+    }
+
+    #aboutus p {
+        text-align: justify;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    #aboutus {
+        padding: 10px;
+    }
+
+    #aboutus .about_us_btn a {
+        margin-top: 5px;
+        font-size: 13px;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 5px 10px;
+    }
+
+    #aboutus h2 {
+        font-size: 20px;
+    }
+
+    #grid_section .grid_top_video {
+        padding: 36px 15px;
+    }
+
+    .back h2 {
+        font-size: 16px;
+        margin-top: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .back_btn {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .back .btn {
+        margin-top: 10px;
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+
+    .book_bg_img {
+        background-size: contain;
+        padding: 59px 0px;
+    }
+
+    .book_body_box {
+        padding: 10px 0;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        box-shadow: 0px 3px 5px 0px rgba(0, 0, 1, 0.07);
+    }
+
+    .book_body_box img {
+        width: 60px;
+    }
+
+    .book_body_box p {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .appiont_body {
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #take_a_sleep_test h2,
+    #take_a_sleep_test a {
+        font-size: 20px;
+    }
+
+    #take_a_sleep_test a {
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+
+    #take_a_sleep_test {
+        padding: 20px 0px;
+    }
+
+    .what_our {
+        padding: 30px;
+    }
+
+    .what_our .carousel-inner {
+        padding: 0 10px;
+    }
+
+    .what_our .carousel-item h2 {
+        font-size: 15px;
+    }
+
+    .what_our p {
+        font-size: 13px;
+    }
+
+    .what_our .carousel-indicators {
+        bottom: -35px;
+    }
+
+    .single_prod_btn .nav-item a img {
+        width: 50px;
+    }
+
+    .single_prod_btn {
+        position: relative;
+        top: 0%;
+        transform: translateX(0%);
+        left: 0%;
+        width: 100%;
+    }
+
+    .single_prod_btn .nav-tabs {
+        display: block;
+    }
+
+    .single_prod_btn .nav-tabs .nav-item {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    .single_prod_btn .nav-tabs .nav-link {
+        font-size: 14px;
+    }
+
+    #contactus_page_start {
+        padding: 0px;
+    }
+
+    .pro_desc_details_body p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .pro_desc_details_body h2 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .product_img_desction {
+        margin-bottom: 10px;
+    }
+
+    .single_page_buyNow a {
+        padding: 5px 40px;
+    }
+
+    .single_text_body {
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    /* contact us page  */
+    .contat_address_section,
+    .form_section {
+        padding: 10px;
+    }
+
+    .buy_now {
+        right: -10%;
+        padding: 20px 10px 10px 10px;
+        opacity: 1;
+        font-size: 12px;
+    }
+
+    #virtuoso_section_main .carousel-caption h2 {
+        font-size: 18px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        font-size: 20px;
+    }
+
+    #virtuoso_section_main img {
+        width: 100%;
+    }
+
+    section#virtuoso_section_main {
+        padding: 20px 0px;
+        margin-top: 15px;
+    }
+
+    #virtuoso_section_main .carousel-caption {
+        top: -50px;
+    }
+
+    #single_produ_here_bg {
+        margin-bottom: 50px;
+    }
+
+    .single_by_now_Btn {
+        bottom: -20px !important;
+    }
+
+    .single_by_now_Btn .btn {
+        padding: 2px 10px;
+        font-size: 12px;
+    }
+
+    #the_essence_section h2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    #the_essence_section p {
+        padding: 0px 9.6%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    #mattress_main_sec {
+        padding: 10px 0;
+    }
+
+    #mattress_main_sec h2 {
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+
+    #mattress_main_sec p {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .explore_btn-right {
+        text-align: center !important;
+    }
+
+    .explore_btn-right .btn-primary {
+        padding: 5px 40px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .grid_body_inside .img-fluid {
+        height: auto;
+    }
+
+    .card-title-pro h2 {
+        font-size: 10px !important;
+    }
+
+    .card-title-pro {
+        height: 30%;
+    }
+
+    .card-nw-product:hover .card-title-pro .pru_act_btn .btn {
+        padding: 1px 6px;
+        font-size: 11px;
+    }
+
+    .prop-indebody {
+        padding: 0px 20px;
+    }
+
+    .prop-indebody p a {
+        font-size: 13px;
+    }
+
+    .data_sheet {
+        padding: 10px;
+    }
+
+    .data_sheet .table td,
+    .table th {
+        font-size: 12px;
+    }
+
+    .MerinoWool p {
+        font-size: 13px;
+    }
+
+    #reduce {
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+
+    #reduce .media img {
+        width: 50px !important;
+    }
+
+    #reduce .media-body h4 {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    #reduce .mt-5 {
+        margin-top: 5px !important;
+    }
+
+    #TheworldfinestMaterials {
+        padding: 5px 10px;
+    }
+
+    #reduce a.btn {
+        font-size: 13px;
+    }
+
+    .pagnotfoound h2 {
+        font-size: 26px;
+    }
+
+    .pagnotfoound p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    #page-not-found {
+        padding: 10px 0px;
+    }
+
+    #page-not-found img {
+        float: none !important;
+        display: block !important;
+        margin: 0 auto !important;
+        width: 50%;
+    }
+
+    #grid_section .col-sm-12 {
+        padding: 10px !important;
+        margin-bottom: 5px !important;
+    }
+
+    #bookanappointment .form-group {
+        margin-bottom: 0.5rem;
+    }
+
+    #bookanappointment .modal-content {
+        width: 98%;
+    }
+
+    #bookanappointment .modal-header h4 {
+        font-size: 20px;
+    }
+
+    #bookanappointment label {
+        margin-bottom: 0.1rem;
+        font-size: 13px;
+    }
+
+    #mgx-forms {
+        padding: 10px;
+    }
+
+    .mgx-inside_form {
+        width: 100%;
+    }
+
+    .mgx-inside_form .fomr_title {
+        font-size: 13px;
+        margin-bottom: 2px !important;
+    }
+
+    .mobile-nav .navbar-brand {
+        background-color: transparent !important;
+    }
+
+    .mobile-nav-phonemail {
+        background-color: #607a2c;
+        display: flex;
+    }
+
+    .mobile-nav-phonemail a {
+        margin: auto;
+    }
+
+    .enquire_now_main {
+        padding: 25px;
+        width: 95%;
+        right: -100%;
+    }
+
+    .sle_inside h2 {
+        font-size: 18px;
+    }
+    .gender_femail_male .form-check-inline:nth-child(1) {
+        margin-right: 0px;
+    }
+    .hr_of_sleeep .form-check-inline:nth-child(1) {
+        margin-right: 0px;
+    }
+    .hr_of_sleeep .form-check-inline:nth-child(2) {
+        margin-right: 0px;
+    }
+    .slepp2_inside_body h2 {
+        font-size: 20px;
+    }
+    .Weight_Height_cm1 {
+        font-size: 11px;
+    }
+
+    .Weight_Height_cm {
+        font-size: 11px;
+    }
+    p.sleep_kg {
+        font-size: 11px;
+    }
+    .sleep_test_1 img.welcomBG_img {
+        height: 100vh;
+    }
+    .side_enquiry img {
+        width: 35px;
+    }
+
+    .sleep_test_1 .welcomBG_img{
+        -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+        filter: blur(5px);
+    }
+    .sleep_test_1 img.welcomBG_img {
+        display: none;
+    }
+
+    .slepp2_inside_body p{
+        font-size: 11px;
+        padding: 10px;
+    }
+
+    .slepp2_inside_body{
+        padding: 20px;
+    }
+    .bx-viewport {
+        overflow: visible !important;
+    }
+
+    /* #sleepTestPage {
+        margin-top: 33px;
+        margin-bottom: 120px;
+    } */
+
+    .illness_body_part {
+        padding: 0px !important;
+    }
+
+    .Preference_sl .form-check-inline img {
+        width: 100px;
+    }
+.Gender_sl  .form-check-inline img {
+    width: 100px;
+}
+.Average_hours_sl .form-check-inline img {
+    width: 100px;
+}
+.Allergies_sl .form-check-inline img {
+    width: 100px;
+}
+
+.Age_sl .form-check-inline img {
+    width: 100px;
+}
+.Level_support_sl  .form-check-inline img {
+    width: 100px;
+}
+
+.about_us_body_short_description {
+    padding: 20px;
+}
+.about_us_body_short_description h2 {
+    font-size: 16px;
+}
+
+.product_meter img {
+    width: 160px;
+}
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
